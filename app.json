@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SimpleTestApp",
-    "slug": "SimpleTestApp",
+    "name": "Tribaninjo",
+    "slug": "tribaninjo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doantoni.Tribanjo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.doantoni.Tribaninjo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b281b0f6-48c9-4f92-baac-ab09ff5c089d"
+      }
+    },
+    "owner": "doantoni"
   }
 }
