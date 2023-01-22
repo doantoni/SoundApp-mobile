@@ -2,8 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./Views/Home/Home";
-import Filip from "./Views/Filip/Filip";
-import Patricija from "./Views/Patricija/Patricija";
+import Nature from "./Views/Nature/Nature";
+import City from "./Views/City/City";
 
 const Stack = createNativeStackNavigator();
 
@@ -14,10 +14,10 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{ title: "Kuča" }}
+          options={{ title: "Home" }}
         />
-        <Stack.Screen name="Filip" component={Filip} />
-        <Stack.Screen name="Patricija" component={Patricija} />
+        <Stack.Screen name="Nature" component={Nature} />
+        <Stack.Screen name="City" component={City} />
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>

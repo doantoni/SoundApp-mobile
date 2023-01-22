@@ -2,7 +2,6 @@ import React from "react";
 import { Text, View, Pressable, Image } from "react-native";
 import { styles } from "../../globalStyles";
 import { LinearGradient } from "expo-linear-gradient";
-import image from "../../assets/icon.png";
 interface Props {
   navigation: any;
 }
@@ -25,17 +24,15 @@ const Home = ({ navigation }: Props) => {
       <View style={styles.flexWrap}>
         <Pressable
           style={styles.button}
-          onPress={() => navigation.navigate("Filip", { name: "Filip" })}
+          onPress={() => navigation.navigate("City", { name: "City" })}
         >
-          <Text style={styles.text}>🐴 Filip</Text>
+          <Text style={styles.text}>🌃 City</Text>
         </Pressable>
         <Pressable
           style={styles.button}
-          onPress={() =>
-            navigation.navigate("Patricija", { name: "Patricija" })
-          }
+          onPress={() => navigation.navigate("Nature", { name: "Nature" })}
         >
-          <Text style={styles.text}>💍🙅🏻‍♀️ Patricija</Text>
+          <Text style={styles.text}>🌳 Nature</Text>
         </Pressable>
       </View>
     </LinearGradient>
