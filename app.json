@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tribaninjo",
-    "slug": "tribaninjo",
+    "name": "SoundApp",
+    "slug": "soundapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,21 +19,21 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.doantoni.Tribanjo"
+      "bundleIdentifier": "com.doantoni.SoundApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.doantoni.Tribaninjo"
+      "package": "com.doantoni.SoundApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "b281b0f6-48c9-4f92-baac-ab09ff5c089d"
+        "projectId": "cf4de33e-fe88-40a1-b1f0-b8b8cbc378cc"
       }
     },
     "owner": "doantoni"
