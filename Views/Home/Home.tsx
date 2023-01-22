@@ -19,7 +19,7 @@ const Home = ({ navigation }: Props) => {
         style={styles.tinyLogo}
         source={require("../../assets/icon.png")}
       />
-      <Text style={styles.mainTitle}>Tribaninjo</Text>
+      <Text style={styles.mainTitle}>SoundApp</Text>
 
       <View style={styles.flexWrap}>
         <Pressable
